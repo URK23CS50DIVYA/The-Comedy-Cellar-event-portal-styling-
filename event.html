@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Comedy Event Registration</title>
+
+    <!-- External CSS -->
+    <link rel="stylesheet" href="event.css">
+</head>
+
+<body>
+
+<!-- HEADER -->
+<header>
+    <h1>THE COMEDY CELLAR</h1>
+    <h2>Mike "The Mic" Hilarious</h2>
+</header>
+
+<!-- MAIN CONTAINER -->
+<div class="container">
+
+    <!-- FLEX SECTION -->
+    <div class="flex-box">
+
+        <!-- EVENT DETAILS -->
+        <div class="event-section">
+            <img src="C:\Users\urk23cs5012\Downloads\banner-comedy.jpg" alt="Comedy Event Banner">
+
+            <h3>GET READY TO LAUGH UNTIL IT HURTS!</h3>
+
+            <p>
+                The Laugh Factory brings a night of unstoppable laughter to
+                <b>The Comedy Cellar</b>.
+                Experience the viral sensation Mike "The Mic" Hilarious live on stage.
+            </p>
+
+            <p><b>Date:</b> Saturday, October 26th</p>
+            <p><b>Venue:</b> The Comedy Cellar on 4th St</p>
+            <p><b>Doors Open:</b> 7:00 PM</p>
+            <p><b>Showtime:</b> 8:00 PM</p>
+
+            <h4>Event Promotion</h4>
+
+            <audio controls>
+                <source src="C:\Users\urk23cs5012\Downloads\Standup Comedy - Show Promo Video.mp3" type="audio/mpeg">
+            </audio>
+
+            <video controls>
+                <source src="C:\Users\urk23cs5012\Downloads\28664.mp4" type="video/mp4">
+            </video>
+        </div>
+
+        <!-- REGISTRATION FORM -->
+        <div class="form-section">
+            <h3>Event Registration Form</h3>
+
+            <form>
+                <label>Full Name</label>
+                <input type="text" required>
+
+                <label>Email Address</label>
+                <input type="email" required>
+
+                <label>Phone Number</label>
+                <input type="tel" required>
+
+                <label>Gender</label>
+                <div class="radio-group">
+                    <input type="radio" name="gender" required> Male
+                    <input type="radio" name="gender"> Female
+                </div>
+
+                <label>Event Type</label>
+                <select required>
+                    <option value="">-- Select Event --</option>
+                    <option>Mike "The Mic" Hilarious – Live Stand-up</option>
+                </select>
+
+                <label>Comments</label>
+                <textarea rows="4"></textarea>
+
+                <label>ID Proof Upload</label>
+                <input type="file" required>
+
+                <div class="terms">
+                    <input type="checkbox" required>
+                    I agree to the Terms & Conditions
+                </div>
+
+                <button type="submit">Register Now</button>
+            </form>
+        </div>
+
+    </div>
+
+</div>
+
+<!-- FOOTER -->
+<footer>
+    <p>© 2025 THE COMEDY CELLAR | All Rights Reserved</p>
+</footer>
+
+</body>
+</html>
